@@ -1,11 +1,8 @@
-# React JS - Starter Application: 
+# Learn React - Tutorial: 
 
-This is starter application of react js. This is seed application made while learning react. Thanks @coryhouse whose tutorial has
-been followed to create this repository.
+This is repository made in pocess of learning React. I have followed one pluralsight tutorial which has redux included in it.
 
 ## Index:
-- Objective
-- Architecture
 - Environment setup
     - Starter kits to use
     - Developing starter kit yourself
@@ -13,13 +10,19 @@ been followed to create this repository.
     - React developer tool
     - Redux devtools
 
-## Objective:
+## Environment setup - React starter kit:
+
+### Starter kits to use:
+
+1. [React starter kit - React-slingshot - cory house](https://github.com/coryhouse/react-slingshot)
+2. [React starter kit - Specific to course - modified slingshot](https://github.com/coryhouse/pluralsight-redux-starter)
+
+### Developing starter kit for react and redux:
+
+##### Objectives: 
 
 The objectives are to meet these requirements to have a complete and powerful environment setup
 which will address all needs of application development.
-
-> This project is complete setup including application, server setup, lint setup, test setup, npm scripts and Webpack configuration for complete solution just run `npm start` and everything will fire up. However it is a part of tutorial I was following may have some imperfections.
-  
 
 1. Automated testing
 2. Linting
@@ -28,32 +31,6 @@ which will address all needs of application development.
 5. JSX compilation
 6. ES6 transpilation
 7. One command to do this
-
-## Architecture:
-
-- Application root
-    - src
-        - index.html
-        - index.js
-    - tools
-        - srcServer.js
-        - startMessage.js
-        - testSetup.js
-    - .babelrc
-    - .eslintrc
-    - .gitignore
-    - package.json
-    - webpack.config.dev.js
-    - README.md
-
-## Environment setup - React starter kit:
-
-### Starter kits used:
-
-1. [React starter kit - React-slingshot - cory house](https://github.com/coryhouse/react-slingshot)
-2. [React starter kit - Specific to course - modified slingshot](https://github.com/coryhouse/pluralsight-redux-starter)
-
-### Developing starter kit for react and redux:
 
 ##### Libraries:
 
