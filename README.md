@@ -2,8 +2,11 @@
 
 This is starter application of react js. This is seed application made while learning react. Thanks @coryhouse whose tutorial has
 been followed to create this repository.
+<<<<<<< HEAD
 
 > This project is complete setup including application, server setup, lint setup, test setup, npm scripts and Webpack configuration for complete solution just run `npm start` and everything will fire up. However it is a part of tutorial I was following may have some imperfections.
+=======
+>>>>>>> f986a4a81d74e5970cbe3f721503ffb40bf24238
 
 ## Index:
 - Objective
@@ -19,6 +22,9 @@ been followed to create this repository.
 
 The objectives are to meet these requirements to have a complete and powerful environment setup
 which will address all needs of application development.
+  
+
+> This project is complete setup including application, server setup, lint setup, test setup, npm scripts and Webpack configuration for complete solution just run `npm start` and everything will fire up. However it is a part of tutorial I was following may have some imperfections.
   
 
 1. Automated testing
