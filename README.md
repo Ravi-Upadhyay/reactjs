@@ -34,8 +34,17 @@ which will address all needs of application development.
 ```
 |- Application root
 |---- src
+    |---- components                    // Components, All pages/Components
+        |---- home
+            |---- homePage.js
+        |---- about
+            |---- aboutPage.js
+        |---- app.js                    // Appshell/Layout
+    |---- styles                        // CSS styles
+        |---- style.css                 
     |---- index.html
-    |---- index.js
+    |---- index.js                      // All connections made here
+    |---- route.js                      // Routing configuration
 |---- tools                             // It will contain configuration of other utilities (i.e. server, test)
     |---- srcServer.js                  // Configuration of server
     |---- startMessage.js               // Message to display (pre-start)
@@ -91,6 +100,27 @@ Here we will discuss why it is better to use npm scripts over other options as g
 - No extra layer of abstraction.
 - Simpler debbuging.
 - Better documentation.
+
+##### Unit Testing:
+//TODO: write about unit testing and libraries used
+
+##### Routing: 
+//TODO: write about routing
+
+- We have used React Router.
+- To configure router properly process includes.
+    1. `route.js` file where we list and link our routes.
+        * We have `Route` and `IndexRoute` which will be use to list the routes.
+        * We can have nested routes.
+        * We link routes and components.
+        * Export `Route` component.
+    2. `app.js` file which will act as layout/appshell.
+        * It will be shell to the app. Where static/common layout (i.e. Header and Footer) as well as dynamic (i.e. main content based on route path).
+        * It will display `children` of `props` which it will get based on `route`.
+    3. `index.js` file which will connect all the pieces.
+        * It will consume all routes described in `route.js`.
+        * It will utilize `Router` and `browseHistory` from `react-router`
+        * It will link `<div id="app">` element and `browseHistory` to the `Router` element.
 
 
 ## Browser setup - Tools in your help
